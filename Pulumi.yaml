@@ -1,0 +1,4 @@
+name: repro
+runtime: yaml
+main: main.yaml
+

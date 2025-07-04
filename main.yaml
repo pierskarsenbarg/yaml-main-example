@@ -1,0 +1,11 @@
+config:
+  text:
+    type: string
+variables:
+  text: ${text}
+resources:
+  test:
+    type: local:File
+    properties:
+      content: ${text}
+      filename: ${pulumi.cwd}/test.txt
